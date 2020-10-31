@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkers</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="app">{{ message }}</div>
+    <!-- Title and instructions on how to play the game -->
+    <p>How to play: Click on the checker to move it to a specific spot on the board. </p>
+    <p>Number of players: 2</p>
+    <!--Reference to where I got the checker pieces/icons SVG-->
+    <div>Icons made by <a href="https://www.flaticon.com/free-icon/chinese-checkers_2006254" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <!--Creation of the board and checker pieces-->
+    <div class="board">
+      <!--Checkers have their own div so they can be moved around the board-->
+      <div class="checkers">
+        <img class="red_checker" src="images/checker_red.svg" alt="red">
+        <img class="red_checker2" src="images/checker_red.svg" alt="red">
+        <img class="red_checker3" src="images/checker_red.svg" alt="red">
+        <img class="red_checker4" src="images/checker_red.svg" alt="red">
+        <img class="red_checker5" src="images/checker_red.svg" alt="red">
+        <img class="red_checker6" src="images/checker_red.svg" alt="red">
+        <img class="red_checker7" src="images/checker_red.svg" alt="red">
+        <img class="red_checker8" src="images/checker_red.svg" alt="red">
+        <img class="red_checker9" src="images/checker_red.svg" alt="red">
+        <img class="red_checker10" src="images/checker_red.svg" alt="red">
+        <img class="red_checker11" src="images/checker_red.svg" alt="red">
+        <img class="red_checker12" src="images/checker_red.svg" alt="red">
+
+          <img class="black_checker" src="images/checker_black.svg" alt="black">
+          <img class="black_checker2" src="images/checker_black.svg" alt="black">
+          <img class="black_checker3" src="images/checker_black.svg" alt="black">
+          <img class="black_checker4" src="images/checker_black.svg" alt="black">
+          <img class="black_checker5" src="images/checker_black.svg" alt="black">
+          <img class="black_checker6" src="images/checker_black.svg" alt="black">
+          <img class="black_checker7" src="images/checker_black.svg" alt="black">
+          <img class="black_checker8" src="images/checker_black.svg" alt="black">
+          <img class="black_checker9" src="images/checker_black.svg" alt="black">
+          <img class="black_checker10" src="images/checker_black.svg" alt="black">
+          <img class="black_checker11" src="images/checker_black.svg" alt="black">
+          <img class="black_checker12" src="images/checker_black.svg" alt="black">
+      </div>
+
+      <!--Creation of the game board with color pattern of red and black named as classes white and blue to distinguish from checker pieces Spaces to separate each row to insure the right number of squares and rows for the board-->
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

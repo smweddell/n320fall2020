@@ -1,0 +1,233 @@
+/* Styling of the board */
+.board {
+  width: 816px;
+  height: 815px;
+  /* float: left; */
+  /* justify-content: stretch;
+  display: flex;
+  flex-wrap: wrap; */
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: fixed;
+}
+
+/*Styling each square by using the same class to style them all instead of one by one*/
+.white {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: black;
+  /* position: relative; */
+}
+
+.blue {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: red;
+  /* position: relative; */
+}
+
+/*Styling the checker pieces*/
+.checkers {
+  width: 800px;
+  height: 800px;
+  margin-top: 25px;
+  margin-left: 25px;
+  /* display: inline-flex; */
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.red_checker {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.red_checker2 {
+  width: 50px;
+  height: 50px;
+  left: 205px;
+  position: absolute;
+}
+
+.red_checker3 {
+  width: 50px;
+  height: 50px;
+  left: 410px;
+  position: absolute;
+}
+
+.red_checker4 {
+  width: 50px;
+  height: 50px;
+  left: 615px;
+  position: absolute;
+}
+
+.red_checker5 {
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 105px;
+  position: absolute;
+}
+
+.red_checker6 {
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 307px;
+  position: absolute;
+}
+
+.red_checker7 {
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 512px;
+  position: absolute;
+}
+
+.red_checker8 {
+  width: 50px;
+  height: 50px;
+  top: 100px;
+  left: 715px;
+  position: absolute;
+}
+
+.red_checker9 {
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  position: absolute;
+}
+
+.red_checker10 {
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: 205px;
+  position: absolute;
+}
+
+.red_checker11 {
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: 410px;
+  position: absolute;
+}
+
+.red_checker12 {
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: 615px;
+  position: absolute;
+}
+
+.black_checker {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 102px;
+  position: absolute;
+}
+
+.black_checker2 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 305px;
+  position: absolute;
+}
+
+.black_checker3 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 510px;
+  position: absolute;
+}
+
+.black_checker4 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 715px;
+  position: absolute;
+}
+
+.black_checker5 {
+  width: 50px;
+  height: 50px;
+  top: 610px;
+  position: absolute;
+}
+
+.black_checker6 {
+  width: 50px;
+  height: 50px;
+  top: 610px;
+  left: 205px;
+  position: absolute;
+}
+
+.black_checker7 {
+  width: 50px;
+  height: 50px;
+  top: 610px;
+  left: 410px;
+  position: absolute;
+}
+
+.black_checker8 {
+  width: 50px;
+  height: 50px;
+  top: 610px;
+  left: 615px;
+  position: absolute;
+}
+
+.black_checker9 {
+  width: 50px;
+  height: 50px;
+  top: 710px;
+  left: 100px;
+  position: absolute;
+}
+
+.black_checker10 {
+  width: 50px;
+  height: 50px;
+  top: 710px;
+  left: 305px;
+  position: absolute;
+}
+
+.black_checker11 {
+  width: 50px;
+  height: 50px;
+  top: 710px;
+  left: 510px;
+  position: absolute;
+}
+
+.black_checker12 {
+  width: 50px;
+  height: 50px;
+  top: 710px;
+  left: 715px;
+  position: absolute;
+}
